@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 h1 {
   color: green;
   font-size: 32;
@@ -11,6 +15,7 @@ h2 {
 ul {
   font-weight: 200;
   font-family: cursive;
+  list-style: none;
 }
 
 h3 {
@@ -19,4 +24,9 @@ h3 {
 
 p {
   font-size: 24px;
+}
+
+img.round {
+  border-radius:  50%;
+  width: 50%;
 }
